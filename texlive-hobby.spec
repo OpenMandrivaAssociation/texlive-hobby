@@ -6,7 +6,7 @@
 # catalog-version 1.2
 Name:		texlive-hobby
 Version:	1.2
-Release:	3
+Release:	4
 Summary:	An implementation of Hobby's algorithm for PGF/TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/hobby
