@@ -1,12 +1,12 @@
-# revision 29895
+# revision 32795
 # category Package
 # catalog-ctan /graphics/pgf/contrib/hobby
-# catalog-date 2013-04-15 11:53:39 +0200
+# catalog-date 2014-01-20 18:33:13 +0100
 # catalog-license lppl1.3
-# catalog-version 1.2
+# catalog-version 1.4
 Name:		texlive-hobby
-Version:	1.2
-Release:	5
+Version:	1.4
+Release:	1
 Summary:	An implementation of Hobby's algorithm for PGF/TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/hobby
@@ -40,7 +40,8 @@ implementation is in LaTeX3.
 %{_texmfdistdir}/tex/latex/hobby/pgflibraryhobby.code.tex
 %{_texmfdistdir}/tex/latex/hobby/pml3array.sty
 %{_texmfdistdir}/tex/latex/hobby/tikzlibraryhobby.code.tex
-%doc %{_texmfdistdir}/doc/latex/hobby/README.txt
+%doc %{_texmfdistdir}/doc/latex/hobby/README
+%doc %{_texmfdistdir}/doc/latex/hobby/hobby.pdf
 %doc %{_texmfdistdir}/doc/latex/hobby/hobby_doc.pdf
 %doc %{_texmfdistdir}/doc/latex/hobby/hobby_doc.tex
 #- source
