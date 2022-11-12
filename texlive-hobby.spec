@@ -1,13 +1,13 @@
 Name:		texlive-hobby
-Version:	1.8
-Release:	2
+Version:	44474
+Release:	1
 Summary:	An implementation of Hobby's algorithm for PGF/TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/hobby
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobby.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobby.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobby.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobby.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobby.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobby.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -21,12 +21,12 @@ path thus generated may by used as a TikZ 'to path'. The
 implementation is in LaTeX3.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -37,7 +37,8 @@ implementation is in LaTeX3.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
