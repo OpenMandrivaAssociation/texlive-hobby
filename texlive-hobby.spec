@@ -1,6 +1,6 @@
 Name:		texlive-hobby
-Version:	44474
-Release:	2
+Version:	68137
+Release:	1
 Summary:	An implementation of Hobby's algorithm for PGF/TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/hobby
