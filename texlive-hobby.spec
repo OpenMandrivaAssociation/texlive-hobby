@@ -3,7 +3,7 @@ Version:	68137
 Release:	1
 Summary:	An implementation of Hobby's algorithm for PGF/TikZ
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/hobby
+URL:		https://www.ctan.org/tex-archive/graphics/pgf/contrib/hobby
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobby.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobby.doc.r%{version}.tar.xz
