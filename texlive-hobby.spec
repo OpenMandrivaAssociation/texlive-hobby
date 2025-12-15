@@ -1,5 +1,5 @@
 Name:		texlive-hobby
-Version:	68137
+Version:	76924
 Release:	1
 Summary:	An implementation of Hobby's algorithm for PGF/TikZ
 Group:		Publishing
